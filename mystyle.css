@@ -1,0 +1,205 @@
+*{
+	font-family:"Comic Sans MS", cursive;
+}
+body{
+
+	background-image:url(img/bg2.png);
+	min-height:600px;
+	background-repeat:x;
+	background-position: top center;
+	overflow: hidden;
+
+}
+#container div.father{
+	width:392px;
+	overflow:hidden;
+	margin: 0 auto;
+	height:inherit;
+	background-color:black;
+	cursor:pointer;
+	position:relative;
+	top:120px;
+}
+
+div.father .roll{
+	width:800px;
+	height:405px;
+	overflow: hidden;
+}
+
+div.father .roll > div{
+	height:inherit;
+	overflow: hidden;
+	float: left;
+	background-color:black;
+	cursor:pointer;
+	opacity: 0.4;
+	-moz-opacity: 0.4;
+	filter:alpha(opacity=0.44);
+}
+div.father  .roll > div:hover{
+	opacity:1;
+	-moz-opacity:1;
+	filter:alpha(opacity=1);
+
+}
+
+div.father .roll > div > img{
+	position: relative;
+	display: block;
+	left:0px;
+	top:0px;
+
+}
+
+
+#door #left-door{
+	width:220px;
+	height:450px;
+	margin:0 auto;
+	left:0;
+	right:220px;
+	bottom:0;
+	top:98px;
+	position:absolute;
+	z-index:999;
+	cursor:pointer;
+	-webkit-transition-property:all;
+	-webkit-transition-duration:2100ms;
+	-webkit-transition-timing-function:inline;
+	-moz-transition-property:all;
+	-moz-transition-duration:1100ms;
+	-moz-transition-timing-function:inline;
+	-webkit-transform: perspective(1000)rotateY(0deg);
+	-moz-transform: perspective(1000) rotateY(0deg);
+}
+
+#door #right-door{
+	width:220px;
+	height:450px;
+	margin:0 auto;
+	left:218px;
+	right:0;
+	bottom:0;
+	top:98px;
+	position:absolute;
+	z-index:999;
+	cursor:pointer;
+	-webkit-transition-property:all;
+	-webkit-transition-duration:2100ms;
+	-webkit-transition-timing-function:inline;
+	-moz-transition-property:all;
+	-moz-transition-duration:1100ms;
+	-moz-transition-timing-function:inline;
+	-webkit-transform: perspective(1000) rotateY(0deg);
+	-moz-transform: perspective(1000) rotateY(0deg);
+}
+
+#top{
+	margin:0 auto;
+	top:99px;
+	left:0;
+	right:0;
+	bottom:0;
+	cursor:wait;
+	z-index:99;
+	position:absolute;
+}
+#bottom{
+	margin:0 auto;
+	top:505px;
+	left:0;
+	right:0;
+	bottom:0;
+	cursor:wait;
+	z-index:999;
+	position:absolute;
+}
+
+#right{
+	margin:0 auto;
+	top:150px;
+	left:379px;
+	right:0;
+	bottom:0;
+	cursor:wait;
+	z-index:999;
+	position:absolute;
+}
+#left{
+	margin:0 auto;
+	top:150px;
+	left:0;
+	right:381px;
+	bottom:0;
+	cursor:wait;
+	z-index:999;
+	position:absolute;
+	
+}
+
+div.father div.roll #s1 #book1 .txt p#wel{
+color:rgba(220,220,220,0.7);
+font-size:22px;
+font-weight:bold;
+position: relative;
+width:392px;
+height:10px;
+text-align:center;
+margin: -290px 0px 0px 0px;
+}
+div.father div.roll #s2 #book2 .txt p#txt1{
+color:rgba(255,200,60,0.8);
+font-size:18px;
+font-weight:bold;
+position: relative;
+width:442px;
+text-align:center;
+height:100px;
+margin: -250px 0px 0px 0px;
+text-outline:white;
+float:right;
+}
+p#txt1 a{
+text-decoration:none;
+color:rgba(255,200,60,0.8);
+}
+div.father div.roll #s2 #book2 p#txt2{
+color:rgba(255,200,60,0.8);
+font-family:"Comic Sans MS", cursive;
+font-size:20px;
+font-weight:bold;
+position: relative;
+width:432px;
+text-align:center;
+margin: -180px 0px 0px 0px;
+float:right;
+}
+div.father div.roll #s3 #book3 .txt3{
+}
+div.father div.roll #s4 #book4 p#txt4{
+color:rgba(110,110,110,1);
+font-family:"Comic Sans MS", cursive;
+font-size:18px;
+font-weight:bold;
+position: relative;
+width:392px;
+text-align:center;
+margin: -280px 0px 0px 0px;
+}
+div.father div.roll #s4 #book4 p#txt5{
+color:rgba(100,110,110,1);
+font-family:"Comic Sans MS", cursive;
+font-size:16px;
+font-weight:bold;
+position: relative;
+width:392px;
+text-align:center;
+margin: 10px 0px 0px 0px;
+}
+
+
+#link4{
+	font-size:18px;
+	text-decoration:none;
+}
