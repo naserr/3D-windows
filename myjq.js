@@ -1,5 +1,8 @@
 $(function(){
 	
+		document.getElementById('loading').style.display='none';
+
+	
 	var panels = $('.father .roll > div');
 	panels.last().css({
 		"padding-right":"200px"
