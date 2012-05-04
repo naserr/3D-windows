@@ -1,6 +1,9 @@
+window.onload=function(){
+
+document.getElementById('loading').style.display='none';
+}
 $(function(){
 	
-		document.getElementById('loading').style.display='none';
 
 	
 	var panels = $('.father .roll > div');
