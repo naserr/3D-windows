@@ -3,11 +3,10 @@
 }
 body{
 
-	background-image:url(img/bg2.png);
+	background-image:url(img/bg.jpg);
 	min-height:600px;
-	background-repeat:x;
 	background-position: top center;
-	overflow: hidden;
+	background-color:black;
 
 }
 
